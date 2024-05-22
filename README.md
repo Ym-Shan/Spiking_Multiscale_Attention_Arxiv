@@ -18,7 +18,8 @@ We have provided training programs and pre trained weights for the DVS128 Gestur
 As described in the appendix of the paper, we utilized three devices in our experiments. Device one was dedicated to conducting experiments on the DVS128 Gesture, CIFAR10-DVS, and N-Caltech101 datasets. Device two was allocated for experiments involving the Imagenet-1K dataset using the ResNet18/34 architecture. Lastly, Device three was employed for experiments on the Imagenet-1K dataset using the ResNet104 network.
 
 The specific configurations of these three devices are shown in the table below:
-![image](https://github.com/Ym-Shan/Spiking-Multiscale-Attention/assets/121172737/64a2bbf8-deec-4ff6-b004-0015deeb1bbe)
+![image](https://github.com/Ym-Shan/Spiking_Multiscale_Attention_Arxiv/assets/121172737/e40cbb63-4d3d-4aac-8e6d-2d9381f44539)
+
 
 Regardless of the configuration, the only core libraries used are [spikingjelly==0.0.0.0.14](https://github.com/fangwei123456/spikingjelly), [einops](https://github.com/arogozhnikov/einops), timm and [cupy](https://github.com/cupy/cupy).
 
